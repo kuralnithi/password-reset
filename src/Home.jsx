@@ -206,7 +206,7 @@ function Home() {
 
       if (LoginEmailid == "") {
 
-        setloginStatus("Please enter the required details");
+        setloginStatus("Please enter the Login id");
 
         setTimeout(() => { setloginStatus("") }, 3000);
 

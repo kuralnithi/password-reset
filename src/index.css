@@ -61,3 +61,17 @@ border-radius: 30% 20%;
 
 
 }
+
+
+a:hover{
+
+cursor: pointer;
+color: orange;
+
+}
+a:active{
+
+color:blueviolet;
+
+
+}
