@@ -105,6 +105,7 @@ function Home() {
       emailid: RegEmailId,
       password: RegPassword
     });
+    https://password-reset-ze4r.onrender.com
 
 
     try {
