@@ -110,7 +110,7 @@ function Home() {
     try {
 
 
-      const regResponce = await fetch('http://localhost:4000/api/user/register', {
+      const regResponce = await fetch('https://password-reset-4mlu.onrender.com/api/user/register', {
 
         method: 'post', headers: {
 
@@ -165,7 +165,7 @@ function Home() {
 
 
 
-    const loginRes = await fetch("http://localhost:4000/api/user/login", {
+    const loginRes = await fetch("https://password-reset-4mlu.onrender.com/api/user/login", {
 
       method: 'post', headers: {
         "content-type": 'application/json'
@@ -217,7 +217,7 @@ function Home() {
 
 
 
-      const forgetFetch = await fetch('http://localhost:4000/api/resetpassword', {
+      const forgetFetch = await fetch('https://password-reset-4mlu.onrender.com/api/resetpassword', {
 
 
         method: 'post'
@@ -294,7 +294,7 @@ function Home() {
     try {
 
 
-      const responce = await fetch("http://localhost:4000/api/getuser", {
+      const responce = await fetch("https://password-reset-4mlu.onrender.com/api/getuser", {
 
         method: 'get', headers: {
           "content-type": 'application/json',
