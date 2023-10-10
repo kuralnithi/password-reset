@@ -92,7 +92,7 @@ function ResetPasswordpage(props) {
         }
 
 
-        const fetchpassword = await fetch('https://password-reset-4mlu.onrender.com/api/resetpasswordpage', {
+        const fetchpassword = await fetch('https://password-reset-326w.onrender.com/api/resetpasswordpage', {
 
 
 
