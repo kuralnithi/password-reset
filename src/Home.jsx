@@ -372,7 +372,7 @@ function Home() {
           <div className="form-group mt-3 ">
 
             <input type="text" className="form-control" value={LoginEmailid} onChange={handleLoginEmailInp} placeholder='Enter EmailId' />
-            <input type='password' className="form-control mt-2 " value={LoginPassword} onChange={handleLoginPasswordInp} placeholder='Enter Password' required />
+            <input type='text' className="form-control mt-2 " value={LoginPassword} onChange={handleLoginPasswordInp} placeholder='Enter Password' required />
             <div className="login-forget-btn container-fluid f-flex mx-3">
               <button className="btn btn-success mt-2" onClick={handleLoginBtn}>login</button>
               <a className="mx-2 forget" onClick={handleForget} > Forget password? </a>
