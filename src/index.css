@@ -62,17 +62,23 @@ height: 100vh;
 
 }
 
-
-a:hover {
+.forget{
 
     cursor: pointer;
-    color: orange;
+    color:wheat;
+
 
 }
 
-a:active {
+.forget:hover{
 
-    color: blueviolet;
+cursor: pointer;
+color: azure;
 
+
+}
+.forget:active{
+
+color: red;
 
 }

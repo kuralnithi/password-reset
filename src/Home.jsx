@@ -254,7 +254,7 @@ function Home() {
         console.log(resetMessage);
 
       }
-     
+
 
 
       setTimeout(() => {
@@ -368,14 +368,14 @@ function Home() {
         <div className="login container-fluid d-flex flex-column align-items-center justify-content-center mt-5">
 
           <h1>LOGIN</h1>
+
           <div className="form-group mt-3 ">
 
             <input type="text" className="form-control" value={LoginEmailid} onChange={handleLoginEmailInp} placeholder='Enter EmailId' />
-            <input type="text" className="form-control mt-2 " value={LoginPassword} onChange={handleLoginPasswordInp} placeholder='Enter Password' />
-
+            <input type='password' className="form-control mt-2 " value={LoginPassword} onChange={handleLoginPasswordInp} placeholder='Enter Password' required />
             <div className="login-forget-btn container-fluid f-flex mx-3">
               <button className="btn btn-success mt-2" onClick={handleLoginBtn}>login</button>
-              <a className="mx-2 text-danger" onClick={handleForget} > Forget password? </a>
+              <a className="mx-2 forget" onClick={handleForget} > Forget password? </a>
 
             </div>
 
